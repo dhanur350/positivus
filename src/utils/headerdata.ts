@@ -1,22 +1,22 @@
 export const headerMenu:any[] = [
   {
-    text: "",
-    link: ""
+    text: "About us",
+    link: "/about"
   },
   {
-    text: "",
-    link: ""
+    text: "Services",
+    link: "/services"
   },
   {
-    text: "",
-    link: ""
+    text: "Use Cases",
+    link: "/use-cases"
   },
   {
-    text: "",
-    link: ""
+    text: "Pricing",
+    link: "/pricing"
   },
   {
-    text: "",
-    link: ""
+    text: "Blog",
+    link: "/blog"
   },
 ]
