@@ -1,16 +1,17 @@
 interface Props {
   primaryButton?: boolean;
   children?: any;
+  baseClassname?: string;
 }
 
 function Button(props: Props) {
   
-  const { primaryButton, children } = props;
+  const { primaryButton, children, baseClassname } = props;
 
-  const css: string = primaryButton ? "p-4 rounded-xl border-black border-[1px] cursor-pointer hover:shadow-md" : "cursor-pointer";
+  const css: string = primaryButton ? "p-4 rounded-xl border-black border-[1px] cursor-pointer hover:shadow-md" : "bg-black p-4 rounded-xl text-white cursor-pointer";
 
   return (
-    <button className={css}>{children}</button>
+    <button className={`${css} ${baseClassname}`}>{children}</button>
   )
 }
 
