@@ -7,7 +7,8 @@
 @tailwind utilities;
 
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
 }
@@ -44,4 +45,27 @@ body {
 
 .ternery-theme-text {
   color: #F3F3F3;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.triangle-border {
+  width: 0;
+  height: 0;
+  border-left: 24px solid transparent;
+  border-right: 22px solid transparent;
+  border-bottom: 40px solid #B9FF66;
+  transform: rotate(180deg);
+}
+
+.triangle-fill {
+  top: 1px;
+  left: -30px;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 27px solid transparent;
+  border-bottom: 50px solid #191A23;
 }
