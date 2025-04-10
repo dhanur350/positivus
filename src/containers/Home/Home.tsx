@@ -34,7 +34,7 @@ function Home() {
   }
 
   return (
-    <div className="flex flex-col max-[1000px]:p-[50px] max-[400px]:p-[20px] lg:p-[100px]">
+    <div className="flex flex-col max-[1000px]:p-[50px] max-[400px]:p-[20px] lg:px-[100px]">
 
       <div className="flex max-[1000px]:flex-col lg:justify-between items-center">
 
