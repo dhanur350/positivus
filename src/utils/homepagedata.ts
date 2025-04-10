@@ -1,10 +1,31 @@
+import amazonLogo from "@/assets/companyLogo/Company logo.png";
+import dribbleLogo from "@/assets/companyLogo/Company logo-1.png";
+import hubSpotLogo from "@/assets/companyLogo/Company logo-2.png";
+import notionLogo from "@/assets/companyLogo/Company logo-3.png";
+import netflixLogo from "@/assets/companyLogo/Company logo-4.png";
+import zoomLogo from "@/assets/companyLogo/Company logo-5.png";
+import { CUSTOM_ICON_REF } from "@/components/SvgIcons/CustomIconRef";
+
+export const companyData:any[] = [
+    amazonLogo,
+    dribbleLogo,
+    hubSpotLogo,
+    notionLogo,
+    netflixLogo,
+    zoomLogo
+];
+
 export const servicesdata:any[] = [
     {
-        title: "Search engine optimization",
+        title: "Search engine",
+        subTitle: "optimization",
+        illusTrationIcon: CUSTOM_ICON_REF.ServiceIllustration,
         link: "#searchengineoptimization"
     },
     {
-        title: "Pay-per-click-view",
+        title: "Pay-per-click",
+        subTitle: "advertising",
+        illusTrationIcon: CUSTOM_ICON_REF.ServiceIllustration1,
         link: "#payperclickview"
     },
 ];
